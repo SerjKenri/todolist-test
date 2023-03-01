@@ -28,8 +28,6 @@ const TaskForm = () => {
                 status: false,
             };
             dispatch(addNewTask(newTask));
-            setTitleError(false);
-            setDescriptionError(false);
             setTitle('');
             setDescription('');
         }
